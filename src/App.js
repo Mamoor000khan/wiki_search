@@ -4,7 +4,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [results, setResults] = useState([]);
   const [searchInfo, setSearchInfo] = useState({})
-  
+  // this is a test comment
   const handleSearch = async (e) => {
     e.preventDefault();
     if(search === '') return;
